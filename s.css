@@ -1,0 +1,77 @@
+header{
+    font-size: larger;
+    border-radius: 30px;
+    background-color: rgb(168, 157, 50,0.99);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    transition: 2s;
+}
+header:hover{
+    background-color: rgb(50, 168, 164);
+}
+header button{
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1.23em;
+    border-color: blueviolet;
+    background-color: rgb(168, 70, 50);
+
+    transition: 1s;
+}
+header button:hover{
+    transform: translateY(-1em);
+    color: white;
+    border-color: rgb(50, 58, 168);
+    background-color: black;
+    box-shadow: 10px 16px 2px 0px white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-top: 10px;
+}
+img{
+    height: 70%;
+    width: 98%;
+    transition: 1s;
+}
+img:hover{
+    transform: rotate(20deg);
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+main div{
+    border:1px solid brown;
+    margin-right: 8px;
+    width: 33%;
+    height: 25%;
+    padding: 5%;
+    background-color: rgb(50, 168, 119);
+    transition: 1.25s;
+}
+main div:hover{
+    border-radius: 30px;
+    transform: scale(1.25);
+}
+.d{
+    justify-content: center;
+    margin: auto;
+    border-radius: 30px;
+    width: 6em;
+    transition: 1s;
+    background-color: rgb(163, 161, 181);
+}
+.d:hover{
+    transform: translateY(0.5em);
+    color: white;
+    border-color: rgb(50, 58, 168);
+    background-color: black;
+    box-shadow: 10px 10px 2px 0px white;
+}
+h1{
+    align-items: center;
+    margin-left: 25%;
+}
